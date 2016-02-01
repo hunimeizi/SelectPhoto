@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SelectPhoto</string>
+    <string name="photograph">拍照</string>
+    <string name="get_img">获取图片方式</string>
+    <string name="choose_from_phone">从手机中选择</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_confirm">确认</string>
+    <string name="image_notNu">图片地址错误，请重新选择</string>
+    <string name="image_not">请在图片区域切进行截取</string>
+</resources>

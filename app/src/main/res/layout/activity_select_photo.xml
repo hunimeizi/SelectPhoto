@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_alpha_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.selectphoto.view.CircleImageView
+            android:id="@+id/personal_imv_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/product_default" />
+
+        <ImageView
+            android:id="@+id/personal_imv_checkphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/personal_imv_photo"
+            android:layout_alignRight="@id/personal_imv_photo"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/person_check_img" />
+    </RelativeLayout>
+</LinearLayout>
